@@ -1,0 +1,22 @@
+{
+  "name": "typescript-first-approach",
+  "version": "1.0.0",
+  "description": "learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leireriel/typescript-first-approach.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leireriel/typescript-first-approach/issues"
+  },
+  "homepage": "https://github.com/leireriel/typescript-first-approach#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
