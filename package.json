@@ -16,7 +16,8 @@
     "url": "https://github.com/leireriel/typescript-first-approach/issues"
   },
   "homepage": "https://github.com/leireriel/typescript-first-approach#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "typescript": "^3.8.3"
   }
 }
