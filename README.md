@@ -12,9 +12,9 @@ learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 |
 + - src
      |
-     + greeter.js
+     + helloWorld.ts
      |
-     + hgdjk
+     + greeter.ts
 ```
 
 # sources
@@ -27,13 +27,17 @@ learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 # commands to run files
 ## JS files
 You need to have [Node.js](https://nodejs.org/) installed,
+
 and type `node src/helloWorld.js`
 
 ## TS files
 You need to transpile TS code into JS code (with `tsc`),
+
 by typing `tsc src/helloWorld.ts`,
+
 and then `node src/helloWorld.js`
 
 ### Run the TS Build Task
 `tsc: build` and `tsc: watch`...
+
 continue reading https://code.visualstudio.com/docs/typescript/typescript-compiling
