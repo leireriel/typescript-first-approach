@@ -26,27 +26,27 @@ learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
 # commands to run files
 ## JS files
-You need to have [Node.js](https://nodejs.org/) installed,
+You need to have [Node.js](https://nodejs.org/) installed and
 
-and type `node src/helloWorld.js`
+👉 type `node src/helloWorld.js`
 
 ## TS files
 You need to transpile TS code into JS code (with `tsc`),
 
-by typing `tsc src/helloWorld.ts`,
+👉 by typing `tsc src/helloWorld.ts`,
 
-and then `node src/helloWorld.js`
+👉 and then `node src/helloWorld.js`
 
 ### Run the TS Build Task
 `tsc: build` and `tsc: watch`...
 
-continue reading https://code.visualstudio.com/docs/typescript/typescript-compiling
+Continue reading https://code.visualstudio.com/docs/typescript/typescript-compiling
 
 ### Running your TypeScript web app
 For those files that don't have console.logs, but instead they are meant to insert the code in HTML -like `src/greeter.ts`-,
 
-you need to create an `src/greeter.html`,
+👉 you need to create an `src/greeter.html`,
 
-then inside insert a script with `src/greeter.js`,
+👉 then inside insert a script with `src/greeter.js` and
 
-and open the HTML file in the browser! ;)
+👉 open the HTML file in the browser! ;)
