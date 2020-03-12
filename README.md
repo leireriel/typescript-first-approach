@@ -18,11 +18,13 @@ learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 ```
 
 # sources
-[TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+🌎 [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
-[Install the TypeScript compiler for VSCode](https://code.visualstudio.com/docs/typescript/typescript-compiling)
+🌏 [Install the TypeScript compiler for VSCode](https://code.visualstudio.com/docs/typescript/typescript-compiling)
 
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html)
+🌍 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html)
+
+😃 [Emojipedia](https://emojipedia.org/globe-showing-europe-africa/)
 
 # commands to run files
 ## JS files
