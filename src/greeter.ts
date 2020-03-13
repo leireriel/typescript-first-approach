@@ -54,6 +54,15 @@ const addNewElementToList = ({ exampleName, functionToRender }) => {
   newList.appendChild(newItem);
 };
 
-addNewElementToList({ exampleName: 'Type annotations', functionToRender: greeter1(user1) });
-addNewElementToList({ exampleName: 'Interfaces', functionToRender: greeter2(user2) });
-addNewElementToList({ exampleName: 'Classes', functionToRender: greeter3(user3) });
+addNewElementToList({
+  exampleName: 'Type annotations',
+  functionToRender: greeter1(user1)
+});
+addNewElementToList({
+  exampleName: 'Interfaces',
+  functionToRender: greeter2(user2)
+});
+addNewElementToList({
+  exampleName: 'Classes',
+  functionToRender: greeter3(user3)
+});
