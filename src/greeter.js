@@ -31,6 +31,15 @@ var addNewElementToList = function (_a) {
     newItem.innerHTML = "Example for <b>" + exampleName + "</b>: " + functionToRender;
     newList.appendChild(newItem);
 };
-addNewElementToList({ exampleName: 'Type annotations', functionToRender: greeter1(user1) });
-addNewElementToList({ exampleName: 'Interfaces', functionToRender: greeter2(user2) });
-addNewElementToList({ exampleName: 'Classes', functionToRender: greeter3(user3) });
+addNewElementToList({
+    exampleName: 'Type annotations',
+    functionToRender: greeter1(user1)
+});
+addNewElementToList({
+    exampleName: 'Interfaces',
+    functionToRender: greeter2(user2)
+});
+addNewElementToList({
+    exampleName: 'Classes',
+    functionToRender: greeter3(user3)
+});
