@@ -47,9 +47,9 @@ You need to transpile TS code into JS code (with `tsc`),
 Continue reading https://code.visualstudio.com/docs/typescript/typescript-compiling
 
 ### Running your TypeScript web app
-For those files that don't have console.logs, but instead they are meant to insert the code in HTML -like `src/greeter.ts`-,
+For those files that don't render in the console but instead, they are meant to be inserted in an HTML file as scripts -like `src/greeter.ts`-,
 
-👉 you need to create an `src/greeter.html`,
+👉 you need to create a `src/greeter.html`,
 
 👉 then inside insert a script with `src/greeter.js` and
 
