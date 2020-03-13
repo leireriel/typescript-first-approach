@@ -1,6 +1,9 @@
 # typescript-first-approach
 learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
+![TypeScript Logo](/images/typescript-logo.webp)
+Format: ![TypeScript Logo](https://www.typescriptlang.org/)
+
 # packages
 ## npm commands
 1. `npm init` 🐛 (creates package.json file)
@@ -22,7 +25,7 @@ learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
 🌏 [Install the TypeScript compiler for VSCode](https://code.visualstudio.com/docs/typescript/typescript-compiling)
 
-🌍 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html)
+🌍 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 😃 [Emojipedia](https://emojipedia.org/globe-showing-europe-africa/)
 
