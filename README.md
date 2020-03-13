@@ -1,7 +1,7 @@
 # typescript-first-approach
 learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
-![TypeScript Logo](/images/typescript-logo.webp)
+![TypeScript Logo](/images/typescript-logo.web)
 
 # packages
 ## npm commands
