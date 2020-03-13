@@ -2,7 +2,6 @@
 learning TypeScript (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
 ![TypeScript Logo](/images/typescript-logo.webp)
-Format: ![TypeScript Logo](https://www.typescriptlang.org/)
 
 # packages
 ## npm commands
