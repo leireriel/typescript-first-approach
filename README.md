@@ -35,7 +35,7 @@ You need to have [Node.js](https://nodejs.org/) installed and
 ## TS files
 You need to transpile TS code into JS code (with `tsc`),
 
-👉 by typing `tsc src/helloWorld.ts`,
+👉 by typing `tsc src/helloWorld.ts` (it will generate a .js file with the same name),
 
 👉 and then `node src/helloWorld.js`
 
