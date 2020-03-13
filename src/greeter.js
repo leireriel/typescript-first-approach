@@ -11,17 +11,26 @@ var Student = /** @class */ (function () {
 ;
 ;
 var greeter3 = function (person) {
-    return "3. Hello " + person.firstName + " " + person.lastName;
+    return "Hello " + person.firstName + " " + person.lastName;
 };
 var user3 = new Student('Leire', 'A.', 'Rico');
-document.body.textContent = greeter3(user3);
 ;
 var greeter2 = function (person) {
-    return "2. Hello " + person.firstName + " " + person.lastName;
+    return "Hello " + person.firstName + " " + person.lastName;
 };
 var user2 = { firstName: 'Leire', lastName: 'Rico' };
-document.body.textContent = greeter2(user2);
 // #### 1. Type annotations ####
-var greeter1 = function (person) { return "1. Hello, " + person; };
+var greeter1 = function (person) { return "Hello, " + person; };
 var user1 = 'Leire Rico';
-document.body.textContent = greeter1(user1);
+// #### Render results in DOM ####
+var newList = document.createElement('ol');
+document.body.appendChild(newList);
+var addNewElementToList = function (_a) {
+    var exampleName = _a.exampleName, functionToRender = _a.functionToRender;
+    var newItem = document.createElement('li');
+    newItem.innerHTML = "Example for <b>" + exampleName + "</b>: " + functionToRender;
+    newList.appendChild(newItem);
+};
+addNewElementToList({ exampleName: 'Type annotations', functionToRender: greeter1(user1) });
+addNewElementToList({ exampleName: 'Interfaces', functionToRender: greeter2(user2) });
+addNewElementToList({ exampleName: 'Classes', functionToRender: greeter3(user3) });

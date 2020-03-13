@@ -16,12 +16,10 @@ interface Person {
 };
 
 const greeter3 = (person: Person) => {
-  return `3. Hello ${person.firstName} ${person.lastName}`;
+  return `Hello ${person.firstName} ${person.lastName}`;
 };
 
 let user3 = new Student('Leire', 'A.', 'Rico');
-
-document.body.textContent = greeter3(user3);
 
 
 
@@ -32,18 +30,30 @@ interface Person {
 };
 
 const greeter2 = (person: Person) => {
-  return `2. Hello ${person.firstName} ${person.lastName}`;
+  return `Hello ${person.firstName} ${person.lastName}`;
 };
 
 let user2 = { firstName: 'Leire', lastName: 'Rico' };
 
-document.body.textContent = greeter2(user2);
-
 
 
 // #### 1. Type annotations ####
-const greeter1 = (person: string) => `1. Hello, ${person}`;
+const greeter1 = (person: string) => `Hello, ${person}`;
 
 let user1 = 'Leire Rico';
 
-document.body.textContent = greeter1(user1);
+
+
+// #### Render results in DOM ####
+const newList = document.createElement('ol');
+document.body.appendChild(newList);
+
+const addNewElementToList = ({ exampleName, functionToRender }) => {
+  const newItem = document.createElement('li');
+  newItem.innerHTML = `Example for <b>${exampleName}</b>: ${functionToRender}`;
+  newList.appendChild(newItem);
+};
+
+addNewElementToList({ exampleName: 'Type annotations', functionToRender: greeter1(user1) });
+addNewElementToList({ exampleName: 'Interfaces', functionToRender: greeter2(user2) });
+addNewElementToList({ exampleName: 'Classes', functionToRender: greeter3(user3) });
